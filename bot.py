@@ -28,7 +28,7 @@ def main():
     # Start the Bot
     PORT = int(os.environ.get('PORT', '8443'))
     updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=TOKEN)
-    updater.bot.set_webhook("https://git.heroku.com/messagerepeater.git""TOKEN")
+    updater.bot.set_webhook("https://git.heroku.com/messagerepeater.git"TOKEN)
 
     updater.idle()
 
