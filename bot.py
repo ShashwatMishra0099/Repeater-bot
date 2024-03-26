@@ -3,6 +3,9 @@ from telegram.ext import Updater, CommandHandler
 
 TOKEN = os.environ.get('7112203931:AAFPtXa60Q5wPyUF9JO3MzhnHJUwSNzZdvU"')
 
+# Print the value of TOKEN for debugging purposes
+print("TOKEN:", TOKEN)
+
 # Define the default message and repetition count
 DEFAULT_MESSAGE = "Hello, world!"
 DEFAULT_COUNT = 3
